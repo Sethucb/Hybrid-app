@@ -1,3 +1,44 @@
 page-home {
 
+	h2{
+		font-family: 'Open Sans' !important;
+	}
+	
+	ion-grid {
+	  height: 500px;
+
+	  ion-row {
+	    height: 25.33%;
+	  }
+
+	  ion-col {
+	  	border-style: none;
+	  }
+
+	  .box {
+	  	margin:40px auto;
+	  	text-align: center;
+	  	font-size: 20px;
+	  	font-family: 'Open Sans';
+	  }
+
+	  .red {
+	  		margin-right: 10px;
+			background-color: rgba(220, 83, 81, 1);
+			border-radius:15px;
+		}
+
+		.green {
+			background-color: rgba(187, 225, 123, 1);
+			border-radius:15px;
+		}
+
+		.blue {
+			background-color: rgba(131, 150, 225, 1);
+		}
+
+		.purple {
+			background-color: rgba(155, 121, 170, 1);
+		}
+	}
 }
