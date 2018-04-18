@@ -1,16 +1,12 @@
-page-home {
-
-	h2{
-		font-family: 'Open Sans' !important;
-	}
-	
+page-life {
 	ion-grid {
-	  height: 100%;
+	 height: 100%;
      justify-content: center;
-     margin-top: 150px;
+     margin: auto 0px;
 
 	  ion-row {
 	    height: 25.33%;
+	    padding:5px;
 	  }
 
 	  ion-col {
@@ -42,5 +38,30 @@ page-home {
 		.purple {
 			background-color: rgba(155, 121, 170, 1);
 		}
+
+		.orange {
+			background-color: rgba(213, 151, 46, 1);
+		}
+
+		.turquoise {
+			background-color: rgba(105, 203, 217, 1);
+		}
+
+		.yellow {
+		    background-color: rgba(235, 229, 39, 1);
+		}
+
+		.violet {
+		    background-color: rgba(213, 118, 211, 1);
+		}
+
+		.red {
+			background-color: rgba(220, 83, 81, 1);
+		}
+
+		.green {
+			background-color: rgba(187, 225, 123, 1);
+		}
 	}
 }
+
